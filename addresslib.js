@@ -45,13 +45,7 @@ function update()
 function removeOptions(select)
 {
 	selectbox = document.getElementById(select)
-	var i;
-	for(i=selectbox.options.length-1;i>=0;i--)
-	{
-		selectbox.remove(i);
-
-	}
-	// lets add the header
+	selectbox.options.length = 0
 	option = createOption(0,select)
 	selectbox.appendChild(option)
 }
