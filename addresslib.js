@@ -823,6 +823,8 @@ function update()
 	{
 		case "developmentRegion":
 		removeOptions("Zones")
+		removeOptions("District")
+		removeOptions("Municipalities")
 		var selectd =  document.getElementById("Zones")
 		var idOfAltered = document.getElementById("developmentRegion").value
 		var IDs = getZoneIDs(idOfAltered)
@@ -831,6 +833,7 @@ function update()
 
 		case "Zones":
 		removeOptions("District")
+		removeOptions("Municipalities")
 		var selectd =  document.getElementById("District")
 		var idOfAltered = document.getElementById("Zones").value
 		var IDs = getDistrictsIDs(idOfAltered)
