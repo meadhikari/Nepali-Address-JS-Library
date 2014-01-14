@@ -15,7 +15,7 @@ The library needs lots of work done. I am more than happy to accept contribution
 TODO
 ====
 
-Some districts don't have municipalities, how could we handle such scenarios?
+Addition of Nepali Language Support
 
 License
 ====
