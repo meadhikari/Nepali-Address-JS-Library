@@ -6,7 +6,7 @@ This is a simple Javascript Library which would ease you when building the Addre
 Using
 =====
 
-Using the library is very easy. Just include the js file in every of your page and have the three select field with the ids as "developmentRegions", "Zones", "District" and "municipalities". Check the [demo](http://meadhikari.insomnia247.nl/address.html) for a preview.
+Using the library is very easy. Just include the js file in every of your page and have the three select field with the ids as "developmentRegions", "Zones", "District" and "municipalities" (Now supports VDC's too). Check the [demo](http://meadhikari.insomnia247.nl/demo.html) for a preview.
 
 Contribution
 ====
@@ -15,7 +15,7 @@ The library needs lots of work done. I am more than happy to accept contribution
 TODO
 ====
 
-Some districts don't have municipalities, how could we handle such scenarios?
+Addition of Nepali Language Support
 
 License
 ====
